@@ -1,2 +1,3 @@
 # Slider
 Slider made with javascript with nice montain landscapes...
+Made in 2016
