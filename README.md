@@ -1,2 +1,2 @@
 # Slider
-Slider (diaporama) fait en Javascript pur
+Slider made with javascript with nice montain landscapes...
