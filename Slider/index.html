@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Slider | Javascript</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="img/favicon.ico" />
+
+</head>
+<body>
+
+	<h1>SLIDER ~ LES 4 MONTS</h1>
+	<div id="diapo">
+		<div id="charcode">
+			<p>Changer d'image avec les touches <i class="material-icons">keyboard_arrow_left</i> , <i class="material-icons">keyboard_arrow_right</i> ou <i class="material-icons">space_bar</i></p>
+			<div id="close-char">x</div>
+		</div>
+		<div id="diapobloc">
+			<div id="infos"></div>
+			<div class="fleche" id="preced"><i class="material-icons">keyboard_arrow_left</i></div>
+			<div class="fleche" id="plus"><i class="material-icons">aspect_ratio</i></div>
+			<div class="fleche" id="next"><i class="material-icons">keyboard_arrow_right</i></div>
+			<ul id="diapo-ul"><!-- PHOTOS --></ul>
+		</div>
+		<ul id="boutonsdiapo">
+			<li><button id="godiapo"><i class="material-icons">play_arrow</i></button></li>
+			<li id="progress"></li>
+			<!-- BOUTONS PHOTOS -->
+		</ul>
+	</div>
+	<div id="popup-img">
+		<div id="popup-img-block">
+			<div id="img-zoom"></div>
+			<div id="popup-close">x</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="slider.js"></script>
+</body>
+</html>
+
+
