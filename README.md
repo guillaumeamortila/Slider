@@ -1,2 +1,2 @@
 # Slider
-Slider fait en Javascript pur
+Slider (diaporama) fait en Javascript pur
